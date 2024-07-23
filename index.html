@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Neo Magolela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <title>Rock,Paper,Scissors</title>
+</head>
+<body>
+    
+   <section class="main">
+    <h1>Rock, Paper, Scissors</h1>
+
+    <div class="score">
+        <p>Your score:  <span id="player-score">0</span></p>
+    <p>Computer score: <span id="computer-score">0</span></p>
+    </div>
+
+    <div class="game">
+        <h3>Choose your option</h3>
+
+        <div class="options">
+            <ul>
+                <li id="rock"><i class="fa-regular fa-hand-back-fist"></i></li>
+                <li id="paper"><i class="fa-regular fa-hand"></i></li>
+                <li id="scissors"><i class="fa-regular fa-hand-scissors"></i></li>
+            </ul>
+        </div>
+
+        <div class="choice">
+            <p>Your Choice: <span id="player-choice"></span></p>
+            <p>Computer Choice:  <span id="computer-choice"></span></p>
+            
+        </div>
+
+        
+
+        <div class="results">
+            <p id="result-message"></p>
+        </div>
+
+        <div class="btn">
+        <a href="rules.html"><button>Rules</button></a>
+        </div>
+    </div>
+
+   </section>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
